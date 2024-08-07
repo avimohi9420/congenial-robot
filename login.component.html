@@ -1,0 +1,568 @@
+<!-- navbar Start -->
+<nav class="navbar navbar-expand-md navbar-dark">
+    <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarNav">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" routerLink="#homeBackground" routerLinkActive="active"
+                        (click)="scrollToSection('homeBackground')"><i class="pi pi-home mx-2"></i>Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" routerLink="#whoWeAre" routerLinkActive="active"
+                        (click)="scrollToSection('whoWeAre')"><i class="pi pi-info-circle mx-2"></i>About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" routerLinkActive="active" (click)="scrollToSection('gallary')"><i
+                            class="pi pi-image mx-2"></i>Gallary</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" routerLinkActive="active" (click)="scrollToSection('pricing')"><i
+                            class="pi pi-tag mx-2"></i>Pricing</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" routerLinkActive="active" (click)="scrollToSection('contact')"><i
+                            class="pi pi-whatsapp mx-2"></i>Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" routerLinkActive="active" (click)="showDialog()"><i
+                            class="pi pi-sign-in mx-2"></i>Login</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!-- Navbar End -->
+
+
+<!-- Welcome Message start -->
+<div class="container-fluid" id="homeBackground">
+    <div class="row">
+        <div class="col-12 col-md-10 col-lg-12">
+            <div class="welcomeMsg text-center">
+                <hr>
+                <h1 class="fs-1 fw-bold p-2 fontFamily">Welcome to Vadhu-Var Suchika</h1>
+                <hr>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Welcome Message End -->
+
+<!-- Who we are start -->
+<section id="whoWeAre">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="text-center mt-4 mb-3 py-4">
+                    <h1 class="fs-1 fw-bold">Who We Are</h1>
+                </div>
+                <div class="container">
+                    <div class="row pt-3">
+                        <div class="col-lg-5 col-md-12 mb-4">
+                            <div>
+                                <h3 class="fs-4 fw-semibold">Few Words About VVS</h3>
+                            </div>
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="m-3">
+                                        <p><span class="text-danger fs-3 fw-bold px-4 py-5">VVS</span> Lorem ipsum dolor
+                                            sit amet consectetur adipisicing elit. Sunt quidem ratione nesciunt facere
+                                            maiores animi porro natus praesentium. Sed quasi dolorum voluptates
+                                            veritatis ipsam itaque saepe pariatur voluptatum excepturi voluptatem.</p>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="text-center">
+                                            <img class="img-fluid"
+                                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRht1j3mi_uHK0PGi5CChvxSDWqEaUe9Od93Q&s"
+                                                alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 mb-4">
+                            <div class="text-center">
+                                <h3 class="fs-4 fw-semibold">We Best In</h3>
+                            </div>
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="card border-0">
+                                        <div class="mb-2 text-success border border-secondary-subtle text-center pt-2 ">
+                                            <p>Effective Matchmaking</p>
+                                        </div>
+                                        <div class="mb-2 text-success border border-secondary-subtle text-center pt-2">
+                                            <p>Easy to Use</p>
+                                        </div>
+                                        <div class="mb-2 text-success border border-secondary-subtle text-center pt-2">
+                                            <p>Respectful of Tradition</p>
+                                        </div>
+                                        <div class="mb-2 text-success border border-secondary-subtle text-center pt-2">
+                                            <p>Helpful Support</p>
+                                        </div>
+                                        <div class="mb-2 text-success border border-secondary-subtle text-center pt-2">
+                                            <p>Safe and Secure</p>
+                                        </div>
+                                        <div class="mb-2 text-success border border-secondary-subtle text-center pt-2">
+                                            <p>Proven Success</p>
+                                        </div>
+                                        <div class="mb-2 text-success border border-secondary-subtle text-center pt-2">
+                                            <p>Trusted Community</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mb-4">
+                            <div class="text-center">
+                                <h3 class="fs-4 fw-semibold">Our Services</h3>
+                            </div>
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="card border-0">
+                                        <div
+                                            class="mb-2 text-success text-center pt-2 border-secondary-subtle border-bottom mx-5">
+                                            <p class="">Profile Creation</p>
+                                        </div>
+                                        <div
+                                            class="mb-2 text-success text-center pt-2 border-secondary-subtle border-bottom mx-5">
+                                            <p>Matchmaking Assistance</p>
+                                        </div>
+                                        <div
+                                            class="mb-2 text-success text-center pt-2 border-secondary-subtle border-bottom mx-5">
+                                            <p>Communication Tools</p>
+                                        </div>
+                                        <div
+                                            class="mb-2 text-success text-center pt-2 border-secondary-subtle border-bottom mx-5">
+                                            <p>Educational Resources</p>
+                                        </div>
+                                        <div
+                                            class="mb-2 text-success text-center pt-2 border-secondary-subtle border-bottom mx-5">
+                                            <p>Success Stories</p>
+                                        </div>
+                                        <div
+                                            class="mb-2 text-success text-center pt-2 border-secondary-subtle border-bottom mx-5">
+                                            <p>Event and Community Updates</p>
+                                        </div>
+                                        <div class="mb-2 text-success text-center pt-2 mx-5">
+                                            <p>Educational Resources</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Who we are end -->
+
+<!-- Photo Gallary start -->
+<section id="gallary">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="text-center Gallary_Heading py-4">
+                    <h1 class="fs-1 fw-semibold pt-4 pb-3">Photo Gallery</h1>
+                    <p class="mx-5 px-lg-5 px-md-3 px-sm-0 px- py-3">Lorem, ipsum dolor sit amet consectetur adipisicing
+                        elit. Quaerat
+                        exercitationem fugiat error dignissimos? Ea officia adipisci harum explicabo quos vel cumque
+                        fuga beatae? Alias labore possimus numquam ducimus culpa ab!</p>
+                </div>
+                <div class="container">
+                    <div class="grid">
+                        <div class="col">
+                            <div class="photo_Gallary">
+                                <div class="card border-0 rounded-3">
+                                    <img class="rounded-5" src="../../../../assets/Images/photoGallary1.jpeg"
+                                        alt="Photo Albums">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="photo_Gallary ">
+                                <div class="card border-0">
+                                    <img class="rounded-5" src="../../../../assets/Images/photoGallary2.jpeg"
+                                        alt="Photo Albums">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class=" photo_Gallary">
+                                <div class="card border-0">
+                                    <img class="rounded-5" src="../../../../assets/Images/photoGallary3.jpeg"
+                                        alt="Photo Albums">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid">
+                        <div class="col">
+                            <div class="photo_Gallary">
+                                <div class="card border-0 rounded-3">
+                                    <img class="rounded-5" src="../../../../assets/Images/photoGallary4.jpeg"
+                                        alt="Photo Albums">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="photo_Gallary ">
+                                <div class="card border-0">
+                                    <img class="rounded-5" src="../../../../assets/Images/photoGallary5.jpeg"
+                                        alt="Photo Albums">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class=" photo_Gallary">
+                                <div class="card border-0">
+                                    <img class="rounded-5" src="../../../../assets/Images/photoGallary6.jpeg"
+                                        alt="Photo Albums">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Photo Gallary End -->
+
+
+<!-- Pricing Plan Start -->
+<section id="pricing">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="text-center mt-5 mb-5">
+                    <h1 class="fs-1 fw-semibold">Pricing Plans</h1>
+                </div>
+                <div class="container">
+                    <div class="row row-cols-1 row-cols-md-3 g-4">
+                        <div class="col">
+                            <div class="card border-0 bg-white text-center p-4 shadow">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <h2>Standard</h2>
+                                        <h1 class="fs-1 fw-semibold">&#8377; 500</h1>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="d-flex justify-content-center align-items-center mt-3">
+                                            <div>
+                                                <p><svg class="mx-3" xmlns="http://www.w3.org/2000/svg" width="20.903"
+                                                        height="18.395">
+                                                        <path
+                                                            d="M22.903 2.828 20.075 0 6.641 13.435 3.102 9.09 0 11.616l6.338 7.779L22.903 2.828z" />
+                                                    </svg></p>
+                                                <p><svg class="mx-3" xmlns="http://www.w3.org/2000/svg" width="20.903"
+                                                        height="18.395">
+                                                        <path
+                                                            d="M22.903 2.828 20.075 0 6.641 13.435 3.102 9.09 0 11.616l6.338 7.779L22.903 2.828z" />
+                                                    </svg></p>
+                                                <p><svg class="mx-3" xmlns="http://www.w3.org/2000/svg" width="20.903"
+                                                        height="18.395">
+                                                        <path
+                                                            d="M22.903 2.828 20.075 0 6.641 13.435 3.102 9.09 0 11.616l6.338 7.779L22.903 2.828z" />
+                                                    </svg></p>
+                                                <p><svg class="mx-3" xmlns="http://www.w3.org/2000/svg" width="22.903"
+                                                        height="19.395">
+                                                        <path
+                                                            d="M22.903 2.828 20.075 0 6.641 13.435 3.102 9.09 0 11.616l6.338 7.779L22.903 2.828z" />
+                                                    </svg></p>
+                                                <p><svg class="mx-3" data-name="Layer 1"
+                                                        xmlns="http://www.w3.org/2000/svg" width="26.950"
+                                                        height="23.500" viewBox="0 0 16 16">
+                                                        <path d="m4.12 6.137 1.521-1.52 7 7-1.52 1.52z" />
+                                                        <path d="m4.12 11.61 7.001-7 1.52 1.52-7 7z" />
+                                                    </svg></p>
+                                            </div>
+                                            <div>
+                                                <p>Interview the couple</p>
+                                                <p>Verification</p>
+                                                <p>BioData Matching</p>
+                                                <p>Voice Call</p>
+                                                <p>Preparation of budget</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class=" mt-4">
+                                            <button type="button"
+                                                class="btn rounded-0 subscribe_btn px-4 py-2">Subscribe</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card border-0 bg-white text-center p-4 shadow">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <h2>Premium</h2>
+                                        <h1 class="fs-1 fw-semibold">&#8377; 800</h1>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="d-flex justify-content-center  align-items-center mt-3">
+                                            <div>
+                                                <p><svg class="mx-3" xmlns="http://www.w3.org/2000/svg" width="20.903"
+                                                        height="18.395">
+                                                        <path
+                                                            d="M22.903 2.828 20.075 0 6.641 13.435 3.102 9.09 0 11.616l6.338 7.779L22.903 2.828z" />
+                                                    </svg></p>
+                                                <p><svg class="mx-3" xmlns="http://www.w3.org/2000/svg" width="20.903"
+                                                        height="18.395">
+                                                        <path
+                                                            d="M22.903 2.828 20.075 0 6.641 13.435 3.102 9.09 0 11.616l6.338 7.779L22.903 2.828z" />
+                                                    </svg></p>
+                                                <p><svg class="mx-3" xmlns="http://www.w3.org/2000/svg" width="20.903"
+                                                        height="18.395">
+                                                        <path
+                                                            d="M22.903 2.828 20.075 0 6.641 13.435 3.102 9.09 0 11.616l6.338 7.779L22.903 2.828z" />
+                                                    </svg></p>
+                                                <p><svg class="mx-3" xmlns="http://www.w3.org/2000/svg" width="22.903"
+                                                        height="19.395">
+                                                        <path
+                                                            d="M22.903 2.828 20.075 0 6.641 13.435 3.102 9.09 0 11.616l6.338 7.779L22.903 2.828z" />
+                                                    </svg></p>
+                                                <p><svg class="mx-3" data-name="Layer 1"
+                                                        xmlns="http://www.w3.org/2000/svg" width="26.950"
+                                                        height="23.500" viewBox="0 0 16 16">
+                                                        <path d="m4.12 6.137 1.521-1.52 7 7-1.52 1.52z" />
+                                                        <path d="m4.12 11.61 7.001-7 1.52 1.52-7 7z" />
+                                                    </svg></p>
+                                            </div>
+                                            <div>
+                                                <p>Interview the couple</p>
+                                                <p>Verification</p>
+                                                <p>BioData Matching</p>
+                                                <p>Voice Call</p>
+                                                <p>Preparation of budget</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class=" mt-4">
+                                            <button type="button"
+                                                class="btn subscribe_btn rounded-0 px-4 py-2">Subscribe</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card border-0 bg-white text-center p-4 shadow">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <h2>Platinum</h2>
+                                        <h1 class="fs-1 fw-semibold">&#8377; 1000</h1>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="d-flex justify-content-center  align-items-center mt-3">
+                                            <div>
+                                                <p><svg class="mx-3" xmlns="http://www.w3.org/2000/svg" width="20.903"
+                                                        height="18.395">
+                                                        <path
+                                                            d="M22.903 2.828 20.075 0 6.641 13.435 3.102 9.09 0 11.616l6.338 7.779L22.903 2.828z" />
+                                                    </svg></p>
+                                                <p><svg class="mx-3" xmlns="http://www.w3.org/2000/svg" width="20.903"
+                                                        height="18.395">
+                                                        <path
+                                                            d="M22.903 2.828 20.075 0 6.641 13.435 3.102 9.09 0 11.616l6.338 7.779L22.903 2.828z" />
+                                                    </svg></p>
+                                                <p><svg class="mx-3" xmlns="http://www.w3.org/2000/svg" width="20.903"
+                                                        height="18.395">
+                                                        <path
+                                                            d="M22.903 2.828 20.075 0 6.641 13.435 3.102 9.09 0 11.616l6.338 7.779L22.903 2.828z" />
+                                                    </svg></p>
+                                                <p><svg class="mx-3" xmlns="http://www.w3.org/2000/svg" width="22.903"
+                                                        height="19.395">
+                                                        <path
+                                                            d="M22.903 2.828 20.075 0 6.641 13.435 3.102 9.09 0 11.616l6.338 7.779L22.903 2.828z" />
+                                                    </svg></p>
+                                                <p><svg class="mx-3" data-name="Layer 1"
+                                                        xmlns="http://www.w3.org/2000/svg" width="26.950"
+                                                        height="23.500" viewBox="0 0 16 16">
+                                                        <path d="m4.12 6.137 1.521-1.52 7 7-1.52 1.52z" />
+                                                        <path d="m4.12 11.61 7.001-7 1.52 1.52-7 7z" />
+                                                    </svg></p>
+                                            </div>
+                                            <div>
+                                                <p>Interview the couple</p>
+                                                <p>Verification</p>
+                                                <p>BioData Matching</p>
+                                                <p>Voice Call</p>
+                                                <p>Preparation of budget</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class=" mt-4">
+                                            <button type="button"
+                                                class="btn subscribe_btn rounded-0 px-4 py-2">Subscribe</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Pricing Plan End -->
+
+
+<!-- Get In Touch Start -->
+<section id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="card shadow p-5 border-0 my-5 mx-auto">
+                    <div class="text-center">
+                        <h1 class="fs-1 fw-semibold">Start Planning Your Dream Wedding Today</h1>
+                    </div>
+                    <form class="mt-4">
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label for="name" class="form-label">Name:</label>
+                                <input type="text" id="name" name="name" class="form-control inputDesigns" required>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label for="email" class="form-label">Email:</label>
+                                <input type="email" id="email" name="email" class="form-control inputDesigns" required>
+                            </div>
+                            <div class="col-12 mb-4">
+                                <label for="message" class="form-label">Message:</label>
+                                <textarea id="message" name="message" class="form-control inputDesigns" rows="4"
+                                    required></textarea>
+                            </div>
+                            <div class="col-12 text-center">
+                                <button type="submit" class="btn subscribe_btn rounded-0 px-4 py-2">GET IN
+                                    TOUCH</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Get In Touch End -->
+
+<!-- Footer start -->
+<section style="background-color: rgb(231, 227, 227);">
+    <footer>
+        <div class="container">
+            <div class="row py-5">
+                <div class="col-lg-4 col-md-12">
+                    <div class="d-flex justify-content-lg-evenly justify-content-center mt-5 flex-wrap">
+                        <div class="text-center my-2">
+                            <a href="#" class="text-dark text-decoration-none fw-bold"><i class="pi pi-ethereum"></i> Home</a>
+                        </div>
+                        <div class="text-center my-2">
+                            <a href="#" class="text-dark text-decoration-none fw-bold"><i class="pi pi-ethereum"></i> About</a>
+                        </div>
+                        <div class="text-center my-2">
+                            <a href="#" class="text-dark text-decoration-none fw-bold"><i class="pi pi-ethereum"></i> Gallery</a>
+                        </div>
+                        
+                    </div>
+                    <div class="d-flex justify-content-center justify-content-md-center">
+                        <div class="text-center my-2">
+                            <a href="#" class="text-dark text-decoration-none fw-bold mx-2"><i class="pi pi-ethereum"></i> Pricing</a>
+                        </div>
+                        <div class="text-center my-2">
+                            <a href="#" class="text-dark text-decoration-none fw-bold"><i class="pi pi-ethereum"></i> Contact</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 text-center">
+                    <div>
+                        <img src="https://img.freepik.com/free-vector/golden-logo-with-vintage-luxury-style_23-2147850619.jpg?ga=GA1.1.1267677327.1722416750&semt=ais_hybrid"
+                             alt="logo" class="img-fluid" style="height: 100px; width: 100px;">
+                        <p class="fw-bold mt-3">" Matchmaking with Tradition and Trust </p>
+                        <p class="fw-bold mt-2">& Bringing Soulmates Together ." </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 text-center mt-5">
+                    <div class="icons">
+                        <a href="#"><i class="pi pi-facebook"></i></a>
+                        <a href="#"><i class="pi pi-instagram"></i></a>
+                        <a href="#"><i class="pi pi-whatsapp"></i></a>
+                        <a href="#"><i class="pi pi-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</section>
+
+<!-- Footer end-->
+<!-- Copyright start-->
+<section style="background-color: lightgray;">
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="text-end my-1">
+                        <p class="fw-bold mb-0 pb-0">Copyright © Gowingflowers Software Solutions LLP 2024.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</section>
+<!-- copyright end -->
+
+<!-- Login Model -->
+<div class="card flex justify-content-center rounded-0 shadow">
+    <p-dialog header="Login Account" [modal]="true" [(visible)]="visible" [style]="{ width: '25rem' }">
+        <div class="my-3">
+            <div class="flex flex-column gap-2 text-center">
+                @if(!otpinputDisplay){
+                <label for="username" class="mb-3">Enter Mobile Number</label>
+                <input pInputText id="username" tab="false" aria-describedby="username-help"
+                    [(ngModel)]="loginObj.mobNo" />
+                }
+            </div>
+
+        </div>
+        <div class=" mb-5 text-center">
+            @if(otpinputDisplay){
+                <div>
+                    <p>Please enter the one time password
+                        to verify your account</p>
+                      <p>  A code has been sent to *******9897</p>
+                </div>
+                <div class="ms-4 text-center">
+                    <p-inputOtp [(ngModel)]="loginObj.otp" [mask]="true" [integerOnly]="true" />
+                </div>
+                }
+        </div>
+        <div class="flex align-items-center gap-3 mb-5">
+            <p-toast [breakpoints]="{ '920px': { width: '100%', right: '0', left: '0' } }" />
+            <div class="text-center mt-4">
+                @if(!otpinputDisplay){
+                <button type="button" class="btn subscribe_btn rounded-0 px-4 mx-2 py-2"
+                    (click)="optVerification()">Send OTP</button>
+                }
+                @if(otpinputDisplay){
+                <button type="button" class="btn subscribe_btn rounded-0 px-4 mx-2 py-2"
+                    (click)="verify()">Verify</button>
+                }
+            </div>
+        </div>
+        <!-- <div class="flex justify-content-end gap-2">
+            <p-button label="Cancel" severity="secondary" (onClick)="visible = false" />
+            <p-button label="Save" (onClick)="visible = false" />
+        </div> -->
+    </p-dialog>
+</div>

@@ -1,0 +1,168 @@
+@import "primeicons/primeicons.css";
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap');
+/* @import "primeicons/primeicons.css"; */
+
+*{
+    /* font-family: "Edu AU VIC WA NT Hand", cursive; */
+    font-optical-sizing: auto;
+    /* background-color: lightblue; */
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: "Edu AU VIC WA NT Hand", cursive;
+  
+}
+
+#homeBackground{
+    /* background-image: url('../../../../assets/Images/elegant-flowers-creative-banner-background_1035-17890.avif'); */
+  background-image: url('../../../../assets/Images/elegant-flowers-creative-banner-background_1035-17890.avif');
+    /* height: 100%; */
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#homeBackground h1{
+    text-shadow: 2px 1px grey;
+   
+    /* font-weight: <weight>; */
+    /* font-style: normal; */
+}
+
+ .welcomeMsg :hover{
+    color: cornflowerblue;
+   
+    cursor:pointer;
+}
+
+
+.photo_Gallary img{
+    height: 300px;
+    width: 100%;
+    margin: 16px 0px;
+}
+
+.Gallary_Heading h2{
+   color:cornflowerblue;
+}
+.subscribe_btn {
+    background-color:teal;
+    color: white; 
+}
+p-inputOtp{
+  margin-left: 42px;
+}
+/* .inputDesigns{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid teal;
+}
+input:focus{
+    border: none;
+}
+p-button{
+    background-color: none !important;
+} */
+nav{
+    backdrop-filter: blur(1000px);
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    display: grid;
+    justify-content: end;
+    /* background-color:#595B83 */
+    background-color: rgb(3, 166, 166);
+
+}
+
+/* .navbar-brand {
+    margin-right: 0;
+  }
+  .navbar-brand img {
+    width: 80px;
+  } */
+  @media screen and (min-width: 768px) {
+    /* .navbar-brand img {
+      width: 100px;
+    } */
+    /* .navbar .container-fluid {
+      flex-direction: row;
+    } */
+    .navbar .navbar-nav .nav-item {
+      padding: 0.5em 1em;
+    }
+    .navbar-nav {
+      border-bottom: 2px solid #fff;
+    }
+  }
+  
+  .navbar .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 1.1em;
+    font-weight: 100;
+  }
+  .navbar .navbar-nav {
+    border-top: 2px solid #fff;
+    margin-top: 0.5em;
+  }
+
+  #navbarNav ul li .nav-link:hover{
+    font-weight: bold;
+    color: black !important;
+    text-shadow: 1px 3px gray;
+    cursor: pointer;
+  }
+
+  .active{
+    font-weight: 100;
+    color: black !important;
+    text-shadow: 1px 3px gray;
+    font-size: 1.1em;
+  }
+  
+  /*  footer*/
+  
+.icons a {
+  display: inline-flex;
+  width: 50px;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 40px;
+  margin: 10px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+
+  background-size: 100% 200%;
+  background-position: 0% 5%;
+
+  transition: background-position 0.5s, color 0.5s;
+}
+
+.icons a:nth-child(1) {
+  color: #1976d3;
+  background-image: linear-gradient(#fff 50%, #1976d3 50%);
+}
+
+.icons a:nth-child(2) {
+  color: #db6f44;
+  background-image: linear-gradient(#fff 50%, #db6f44 50%);
+}
+
+.icons a:nth-child(3) {
+  color: #000;
+  background-image: linear-gradient(#fff 50%, #0df838 50%);
+}
+
+.icons a:nth-child(4) {
+  color: #03a9f5;
+  background-image: linear-gradient(#fff 50%, #03a9f5 50%);
+}
+
+.icons a:hover {
+  background-position: 0% 100%;
+  color: #fff;
+}
